@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body{
+    background: linear-gradient(to bottom right, #021B79, #0575E6);
+    min-height: 100vh;
+    overflow: hidden;
+    height: 100%;
+    max-height: 100%; 
+}
+
+header {
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+    position: relative; 
+}
+
+.nav {
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.lista {
+    width: 100%;
+    display: flex;
+    color: white;
+    border-radius: 5px;
+    gap: 50px;
+}
+
+.backbtn {
+    position: absolute; 
+    top: -230px; 
+    left: 20px; 
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.backbtn:hover {
+    background-color: #0575E6;
+    transform: scale(1.03);
+}
+
+.backbtn:active {
+    background-color: #0575E6;
+    transform: scale(0.95);
+}
+
+
+.link {
+    color: white;
+    display: block;
+    padding: 30px 0;
+    text-decoration: none;
+}
+
+.op_button:hover{
+background: #70cfff;
+cursor: pointer;
+transform: scale(1.03);
+}
+
+.op_button:active {
+    background-color: #0575E6;
+    transform: scale(0.95);
+}
+
+.opciones {
+    list-style: none;
+    width: 100%;
+}
+
+.op_button {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    justify-content: space;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding-left: 20px;
+    transition: 0.5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+.contenido {
+    opacity: 0; 
+    animation: fadeIn 2s ease forwards;
+}
+

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body {
+    background: linear-gradient(to bottom right, #021B79, #0575E6);
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    position: relative;
+}
+
+legend {
+    background: linear-gradient(to bottom right, #021B79, #0575E6);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.busqueda {
+    position: fixed;
+    top: 5px;
+    right: 20px;
+    border-radius: 10px; 
+    color: white;
+    
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: white;
+    border-radius: 15px;
+    padding: 40px;
+    width: 80%;
+    margin: 40px auto;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.user-info,
+.viaje-info,
+.acomp-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.organ {
+    width: 48%;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #00b4d8;
+    border-radius: 6px;
+    background-color: #f0faff;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="datetime-local"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #0575E6;
+}
+
+.btn {
+    background-color: #0575E6;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.5s;
+    width: 100%; 
+}
+
+.btn:hover {
+    background-color: #021B79;
+    transform: scale(1.03);
+}
+
+.btn:active {
+    background-color: #0575E6;
+    transform: scale(0.95);
+}
+
+.backbtn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.backbtn:hover {
+    background-color: #0575E6;
+    transform: scale(1.03);
+}
+
+backbtn:active {
+    background-color: #0575E6;
+    transform: scale(0.95);
+}

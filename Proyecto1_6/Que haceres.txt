@@ -1,0 +1,29 @@
+-- FUNCIONALIDAD PRINCIPAL --
+
+USUARIOS/PACIENTES =
+- Realizar funcionalidades para : Editar y eliminar personas. [REALIZADO] - 14/10/24 a 16/10/24
+- Implementar borrado lógico. [REALIZADO - 28/10/2024]
+
+FORMULARIOS:
+- Guardado de datos de ambos formularios [REALIZADO] 18/10/24
+- Realizar funcionalidades para: Editar y eliminar datos de los formularios. [REALIZADO] 19/10/24
+- Implementar numeración en base a oficial y gratuito [PENDIENTE]
+
+FINALIZADA CON BUGS A RESOLVER:
+
+- CHECKBOX SIEMPRE ESTA CHECKED. [SOLUCIONADO, RETIRADO EL CHECK POR OPTION] 25/10/2024
+- AL REGISTRAR UN VIAJE CON UN ACOMPAÑANTE ESPECIFICO PARA 2 FORMULARIOS LA CLAVE PRIMARIA SE DUPLICA. [SOLUCIONADO, VERIFICACIÓN Y EN CASO DE EXISTENCIA SOLO RELACIÓN, NO INSERCIÓN] 07/11/2024
+
+
+OPERADORES =
+- Realizar LOGIN funcional para el ingreso de los funcionarios. [REALIZADO - 23/1O/2024]
+
+ADICIONALES:
+- Implementar barra de busqueda para encontrar formularios por su cedula/motivo/nombre/apellido/etc [REALIZADO - 04/11/2024]
+- Implementar auto completar al ingresar una cedula. [REALIZADO] 16/10/24 a 17/10/24
+
+
+DATOS A TENER EN CUENTA:
+
+- Posibilidad de cambiar los iconos por imágenes. [PENDIENTE]
+- Implementar una fuente nativa dentro de los archivos de la página.  [PENDIENTE]

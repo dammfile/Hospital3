@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: white;
+    position: relative;
+}
+
+a {
+        color: white;
+        display: block;
+        text-decoration: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+tbody td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+#ttitle {
+    display: flex;
+    justify-content: center;
+}
+
+.busqueda {
+    position: fixed;
+    top: 5px;
+    right: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* SOLAMENTE AFECTA A LA TABLA DE PERSONAS */
+.arbtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+input[type="text"] {
+    padding: 15px 32px;
+    font-size: 16px;
+    border: 1px solid #217aff;
+    outline: none;
+    margin: 4px 2px;
+    border-radius: 10px;
+
+}
+
+/* SOLAMENTE AFECTA A LA TABLA DE PERSONAS */
+.arbtn:hover {
+    background-color: #0575E6;
+    transform: scale(1.03);
+}
+
+/* SOLAMENTE AFECTA A LA TABLA DE PERSONAS */
+.arbtn:active {
+    background-color: #0575E6;
+    transform: scale(0.95);
+}
+
+.backbtn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.backbtn:hover {
+    background-color: #0575E6;
+    transform: scale(1.03);
+}
+
+.backbtn:active {
+    background-color: #0575E6;
+    transform: scale(0.95);
+}
+
+.btn {
+    background-color: #217aff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+
+.btn:hover {
+    background-color: #217aff;
+    transform: scale(1.03);
+}
+
+
+.btn:active {
+    background-color: #217aff;
+    transform: scale(0.95);
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.contenido {
+    opacity: 0;
+    animation: fadeIn 2s ease forwards;
+}
